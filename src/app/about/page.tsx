@@ -88,8 +88,8 @@ export default function Page() {
                         <BlurFade delay={0.7} direction="up" inView>
                             <div className="mt-12 p-8 rounded-lg border border-gray-300 dark:border-secondary">
                                 <span className="text-lg">
-                                    If you ever spot me in the wild, don't
-                                    hesitate to say hello! Let's grab a drink
+                                    If you ever spot me in the wild, don&apos;t
+                                    hesitate to say hello! Let&apos;s grab a drink
                                     and geek-out over the latest advancements in
                                     front-end development or discuss our
                                     favorite programming language.{" "}
