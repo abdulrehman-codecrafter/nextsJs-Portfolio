@@ -25,42 +25,74 @@ export default function Page() {
                     <div className="space-y-6 text-gray-500">
                         <BlurFade delay={0.4} direction="up" inView>
                             <p className="text-lg">
-                                I am a self-driven, career-oriented software engineer 
-                                specializing in front-end development and open-source, 
-                                currently pursuing a bachelor's degree in computer science. 
-                                My expertise lies in building interactive web and mobile applications, 
-                                primarily using{" "}
-                                <span className="text-[rgb(167,139,250)] font-semibold">JavaScript</span>,
-                                <span className="text-[rgb(167,139,250)] font-semibold"> React.js</span>,
-                                <span className="text-[rgb(167,139,250)] font-semibold"> Next.js</span>,
-                                <span className="text-[rgb(167,139,250)] font-semibold"> Node.js</span>, and
-                                <span className="text-[rgb(167,139,250)] font-semibold"> TypeScript</span>.
+                                I am a self-driven, career-oriented software
+                                engineer specializing in front-end development
+                                and open-source, currently pursuing a bachelor's
+                                degree in computer science. My expertise lies in
+                                building interactive web and mobile
+                                applications, primarily using{" "}
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    JavaScript
+                                </span>
+                                ,
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    {" "}
+                                    React.js
+                                </span>
+                                ,
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    {" "}
+                                    Next.js
+                                </span>
+                                ,
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    {" "}
+                                    Node.js
+                                </span>
+                                , and
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    {" "}
+                                    TypeScript
+                                </span>
+                                .
                             </p>
                         </BlurFade>
 
                         <BlurFade delay={0.5} direction="up" inView>
                             <p className="text-lg">
-                                I strongly believe in continuous learning and improving myself, 
-                                so I try my best to learn in any situation possible, unfavorable or not.
+                                I strongly believe in continuous learning and
+                                improving myself, so I try my best to learn in
+                                any situation possible, unfavorable or not.
                             </p>
                         </BlurFade>
 
                         <BlurFade delay={0.6} direction="up" inView>
                             <p className="text-lg">
                                 Outside of coding, I love playing
-                                <span className="text-[rgb(167,139,250)] font-semibold"> video games</span> and
-                                <span className="text-[rgb(167,139,250)] font-semibold"> football</span>, which help me unwind 
-                                and keep my creativity flowing. Whether it's strategizing in a game or making plays on the field, 
-                                I enjoy challenges that push me to think differently.{" "}
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    {" "}
+                                    video games
+                                </span>{" "}
+                                and
+                                <span className="text-[rgb(167,139,250)] font-semibold">
+                                    {" "}
+                                    football
+                                </span>
+                                , which help me unwind and keep my creativity
+                                flowing. Whether it's strategizing in a game or
+                                making plays on the field, I enjoy challenges
+                                that push me to think differently.{" "}
                             </p>
                         </BlurFade>
 
                         <BlurFade delay={0.7} direction="up" inView>
                             <div className="mt-12 p-8 rounded-lg border border-gray-300 dark:border-secondary">
                                 <span className="text-lg">
-                                    If you ever spot me in the wild, don't hesitate to say hello! 
-                                    Let's grab a drink and geek-out over the latest advancements in 
-                                    front-end development or discuss our favorite programming language.{" "}
+                                    If you ever spot me in the wild, don't
+                                    hesitate to say hello! Let's grab a drink
+                                    and geek-out over the latest advancements in
+                                    front-end development or discuss our
+                                    favorite programming language.{" "}
                                     <Zap className="w-6 h-6 mt-0 text-yellow-400 inline" />
                                 </span>
                             </div>
