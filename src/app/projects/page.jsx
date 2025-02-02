@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { MagicCard } from "@/components/ui/magic-card";
 import {
     Rocket,
@@ -24,55 +24,63 @@ const projects = [
     {
         icon: <Star className="w-6 h-6 text-purple-400" />,
         title: "Legendarysuni",
-        description: "Singer/Songwriter Electronic Press Kit build with React and TailwindCSS",
+        description:
+            "Singer/Songwriter Electronic Press Kit build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <Home className="w-6 h-6 text-orange-500" />,
         title: "Winrealty",
-        description: "Real-estate ecommerce site build with React and TailwindCSS",
+        description:
+            "Real-estate ecommerce site build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <Brain className="w-6 h-6 text-blue-500" />,
         title: "Quiznote",
-        description: "AI-powered quiz generator build with React and TailwindCSS",
+        description:
+            "AI-powered quiz generator build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <Camera className="w-6 h-6 text-purple-400" />,
         title: "John Eke",
-        description: "Cinematographer portfolio site build with React and TailwindCSS",
+        description:
+            "Cinematographer portfolio site build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <FileText className="w-6 h-6 text-orange-400" />,
         title: "Adocs",
-        description: "Static docs template built with VitePress build with React and TailwindCSS",
+        description:
+            "Static docs template built with VitePress build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <Cube className="w-6 h-6 text-purple-400" />,
         title: "Sanity Portfolio",
-        description: "Portfolio template built with Sanity and Next.js build with React and TailwindCSS",
+        description:
+            "Portfolio template built with Sanity and Next.js build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <Star className="w-6 h-6 text-blue-500" />,
         title: "Spekni",
-        description: "Recognition platform built for developer endorsements build with React and TailwindCSS",
+        description:
+            "Recognition platform built for developer endorsements build with React and TailwindCSS",
         href: "#",
     },
     {
         icon: <Rocket className="w-6 h-6 text-yellow-400" />,
         title: "Rocketmeme",
-        description: "Simple and intuitive meme generator build with React and TailwindCSS",
+        description:
+            "Simple and intuitive meme generator build with React and TailwindCSS",
         href: "#",
     },
 ];
 
 export default function Projects() {
-  const {theme} = useTheme(); // Destructure `theme` from `useTheme`
+    const { theme } = useTheme(); // Destructure `theme` from `useTheme`
     return (
         <div className="w-[95%] sm:[90%] md:w-[85%] lg:w-[80%] max-w-[1200px] mx-auto pt-20 px-4">
             <div className="max-w-6xl mx-auto">
@@ -91,13 +99,13 @@ export default function Projects() {
                 <div className="flex flex-wrap gap-4">
                     {projects.map((project) => (
                         <MagicCard
+                            key={project.title}
                             className="px-4 cursor-pointer w-[350px] md:w-[300px] lg:w-[32%] rounded-2xl shadow-xl bg-transparent"
                             gradientColor={
                                 theme === "dark" ? "#262626" : "#D9D9D955"
                             } // Dynamic gradient based on theme
                         >
                             <Link
-                                key={project.title}
                                 href={project.href}
                                 className="flex-1 min-w-[300px] px-4 py-6  rounded-lg"
                             >
